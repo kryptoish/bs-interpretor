@@ -1,2 +1,2 @@
-# bs-interpretor
-Bullsh*t-Interpretor (an esolang named bullsh*t) will be built in rust for the nanopulseOS project and for learning (yes the file extension will be .bs)
+# cmos-interpretor
+CMOS-Interpretor (an esolang) will be built in rust for the nanopulseOS project and for learning (file extension -> .cmos)
