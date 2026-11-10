@@ -50,6 +50,9 @@ Separate pull-up to pull-down: `/ (a.b)/(a,b)`
 
 Output: `> (a.b)/(a,b)>c`
 
-TODO: ...
+<img width="310" height="505" alt="image" src="https://github.com/user-attachments/assets/4f2f8b9f-0948-4910-b957-8c10dc406981" />
+
+
+TODO: (some type of method to make modules/funcs/templates) ...
 
 More info on the language (once completed) will exist on esolangs.org/cmos
