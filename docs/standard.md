@@ -8,7 +8,7 @@ Tape-based memory system: One array, with the pointer starting at the center as 
 
 #### Data storage
 
-The memory system will hold a apir in each cell of the array which stores an unsigned 32 bit integer (gate offset{8}, src offset{8}, drain offset{8}, type{1}) which represents the TRANSISTOR and an uint16 (state{2}, data_mode{1}, data{8}, charge_age{5}) which will represent the NODE.
+The memory system will hold a pair in each cell of the array which stores an unsigned 32 bit integer (gate offset{8}, src offset{8}, drain offset{8}, type{1}) which represents the TRANSISTOR and an uint16 (state{2}, data_mode{1}, data{8}, charge_age{5}) which will represent the NODE.
 
 #### stdlib
 
@@ -16,7 +16,7 @@ This will be shared, with nanopulseOS and also here such that the language can b
 
 #### Internal Controller (for dev)
 
-This more for devs, but my suggestion to ensure it is Turing complete (like bf) is to have a "controller" which dictates edits on the takes, like whether a new cmos needs to be created, removed, or edited (this would happen every net connection completion).
+This more for devs, but my suggestion to ensure it is Turing complete (like bf) is to have a "controller" which dictates edits on the tape, like whether a new cmos needs to be created, removed, or edited (this would happen every net connection completion).
 
 #### Generator
 
