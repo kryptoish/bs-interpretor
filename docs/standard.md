@@ -1,14 +1,14 @@
 # Proposed grammar/syntax
 
-### Interpretor specific
+### Interpreter specific
 
 #### Memory
 
-Tape-based memory system: One array, with the pointer starting at the center as index 0, all cells below are considered the "pull-up" and above are the "pull-down" (counter-intuitive, but works according to further syntax implementation discussed below) and this can move and point to different pairs in the array (pair being expanded below).
+Infinite tape-based memory system: One array, with the pointer starting at the center as index 0, all cells below are considered the "pull-up" and above are the "pull-down" (counter-intuitive, but works according to further syntax implementation discussed below) and this can move and point to different pairs in the array (pair being expanded below).
 
 #### Data storage
 
-The memory system will hold a pair in each cell of the array which stores an unsigned 32 bit integer (gate offset{8}, src offset{8}, drain offset{8}, type{1}) which represents the TRANSISTOR and an uint16 (state{2}, data_mode{1}, data{8}, charge_age{5}) which will represent the NODE.
+The memory system will hold a pair in each cell of the array which stores an unsigned 32 bit integer (gate offset{8}, src offset{8}, drain offset{8}, type{1}) which represents the TRANSISTOR and an uint16 (state{2}, data_mode{1}, data{8}, charge_age{5}) which will represent the NODE. Note for the offset, to ensure the the tape can be use "infinitely", you can have it such that you can use a PMOS which has its, gate tied to GND which makes it act as a relay wire between cells that are greater than 128 cells apart -> this routing is done by the interpreter though for both sides (positive and negative)
 
 #### stdlib
 
