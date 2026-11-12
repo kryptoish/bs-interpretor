@@ -55,4 +55,4 @@ Output: `> (a.b)/(a,b)>c`
 
 TODO: (some type of method to make modules/funcs/templates) ...
 
-More info on the language (once completed) will exist on esolangs.org/cmos
+More info on the language (once completed) will exist on https://esolangs.org/wiki/CMOS
