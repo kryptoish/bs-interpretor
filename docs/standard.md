@@ -52,7 +52,6 @@ Output: `> (a.b)/(a,b)>c`
 
 <img width="310" height="505" alt="image" src="https://github.com/user-attachments/assets/4f2f8b9f-0948-4910-b957-8c10dc406981" />
 
+TODO: (some type of method to make modules/funcs/templates and more) (also start writing example code to flesh out edge cases and details for syntax before implementation) ...
 
-TODO: (some type of method to make modules/funcs/templates) ...
-
-More info on the language (once completed) will exist on https://esolangs.org/wiki/CMOS
+More info on the language (once completed) will exist on <https://esolangs.org/wiki/CMOS>
